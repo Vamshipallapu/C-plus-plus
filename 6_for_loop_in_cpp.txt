@@ -1,0 +1,7 @@
+For loop in C++
+========================
+
+for(Intialization;condition;change-loop-variable)
+{
+	//statements to be executed inside the loop
+}
