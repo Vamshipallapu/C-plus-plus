@@ -1,0 +1,3 @@
+do{
+	//statements to be executed inside the loop
+}while(condition);
