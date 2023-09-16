@@ -1,0 +1,8 @@
+Struct in c++
+=====================
+It helps to store composite objects. like points in co ordinate system, student details roll number, url's, content of the page etc..,
+
+Structure heps us to store multiple different data types in c++
+
+struct is also like user defined data types.
+
