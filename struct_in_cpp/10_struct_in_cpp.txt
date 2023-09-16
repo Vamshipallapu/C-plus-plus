@@ -6,3 +6,8 @@ Structure heps us to store multiple different data types in c++
 
 struct is also like user defined data types.
 
+========================================================
+using <stdio.h>, printf, typedef
+
+..we can use type def to shorten the code it helps to avaoid re typing alias name as struct ___ alias_name 
+
