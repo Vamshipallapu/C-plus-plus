@@ -1,0 +1,33 @@
+libraries in cpp:
+------------------------
+
+using name space std, cout, cin all will be in <iostream> library in cpp
+printf , will be in <stdio.h>
+
+
+STL Introduction:
+=================
+STL is usually divided into two parts 1. containers, 2.algorithms
+
+containers are like usually data structures which can be implemented using this.
+
+containers are again divided into three types:
+a. simple: pair, vector, forward list, list
+b. simple containers: stack, queue, priority queue
+c. Assosiative: set,map, unordered-set, unordered-map
+
+set means singlekey items where as map means collection of key vaue pairs.
+
+
+Iterators in c++ STL:
+====================
+Iterators basically used in both containers and algorithms.
+
+It helps to give address of the elements in the containers. 
+
+
+
+
+
+
+
