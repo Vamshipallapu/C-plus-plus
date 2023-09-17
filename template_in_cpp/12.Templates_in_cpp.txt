@@ -1,0 +1,48 @@
+Templates:
+=========
+this is like write once use for any data type.
+
+Templates are of two types: 1. function template  2.Class template
+
+Function template: sort, linear search, binary search
+Class templates: stack, queue, deque.
+
+
+Difference between macros and template is :
+
+Template:
+------
+template<typename T>
+T mymax1<T x,T y)
+{
+	return (x>y)?x:y
+}
+
+Macros
+-------
+#mymax2(x,y)  ((x)>(y)?(x):(y))
+
+
+In macros what it usual does is it simply replace the macros function name with the expression that 
+we have provides simply in the preprocessing phase it self
+
+The disadvantage due to this is macros cannot perform type checking as this usually done at pre processing phase
+and as macros also happening at pre processing phase itself type checking will be a problem
+
+the 2nd disadvantage is it is error prone.
+
+
+Function Template:
+=================
+The idea of function template is write once and we can use the same template multiple time on different data types 
+when ever we us the functionality
+
+on simple note we can say template is for to make use the thing for different data types
+
+template<typename T> // This tells the compiler to take the data type T as an argument and T can be any data type.
+
+
+  
+
+
+
