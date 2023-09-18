@@ -1,0 +1,5 @@
+pairs are like combining two different integers when we do coordinates x,y , item and its price etc..
+
+
+It initializes the pair wuth defualt constructor if it is integers then 0,0 or if is string ""
+
