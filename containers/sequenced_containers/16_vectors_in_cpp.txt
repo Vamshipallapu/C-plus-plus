@@ -1,0 +1,79 @@
+Vectors in C++
+==============
+The advantage of vecotrs over arrays are: 
+1. Dynamic size
+2. Rich in library function like find, erase, insert, etc.,
+3. easy to know the size
+4. No need to pass size
+5. can be returned from a function
+6. By default initialized with default values.
+
+syntactically arrays need more syntax like 
+to find the size : 
+
+for array
+---------
+int n=sizeof(arr)/sizeof(arr[0])
+
+vectors
+--------
+int n =v.size()
+
+also in array when we pass through the function we need to pass the size as well
+
+like 
+int func(int arr[], int n)
+{
+	
+}
+
+as arrays are alwasys recieved by functions as pointers
+
+but incase of vectors:
+vectors are the objects of the vector class
+
+int func(vector<int> v)
+
+they have the size inside them.
+
+
+vectors can be returned from the function
+-----------------------------------------
+
+this means if we try to return an array which is locally created inside a function then that would be invalid
+
+int *fun()
+{
+	int arr[100];
+	return arr;
+}
+the space allocated to the static array is gone once the function call is over this is why it is invalid
+
+The above is invalid  however we can return the dynamically created array inside a function
+
+int *fun()
+{
+	int *arr[]=new int[100]
+}
+
+
+bu incase of vectors this is valid
+vector<int> func()
+{
+	vector<int> v;
+	return v;
+}
+
+
+
+In arrays if we want to copy elements from one to another we need to run a loop but where as in vectors we can simply copy one vector to other
+
+using syntax
+
+v1=v2;
+
+
+
+
+
+
